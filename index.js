@@ -37,5 +37,5 @@ function inorderTraversal(root) {
       current = current.left;
     }
   }
-  return result;
+//   return result;
 }
