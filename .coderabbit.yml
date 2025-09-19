@@ -1,0 +1,6 @@
+language: zh-CN
+rules:
+  - if: base_branch == 'main'
+    enabled: false
+  - if: base_branch != 'main'
+    enabled: true
