@@ -25,3 +25,17 @@ function reverseList(head) {
   }
   return prev;
 }
+
+// 二叉树的遍历
+function inorderTraversal(root) {
+  let result = [];
+  let stack = [];
+  let current = root;
+  while (current || stack.length > 0) {
+    while (current) {
+      stack.push(current);
+      current = current.left;
+    }
+  }
+//   return result;
+}
