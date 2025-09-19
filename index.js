@@ -23,5 +23,5 @@ function reverseList(head) {
     prev = current;
     current = next;
   }
-//   return prev;
+  return prev1;
 }
